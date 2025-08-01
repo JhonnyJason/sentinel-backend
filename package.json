@@ -62,7 +62,8 @@
         "thingymodulecreate": "^0.1.8",
         "thingysync": "^0.1.2",
         "webpack": "^5.100.2",
-        "webpack-cli": "^6.0.1"
+        "webpack-cli": "^6.0.1",
+        "xlsx": "^0.18.5"
     },
     "thingytype": "service",
     "lang": "en"
