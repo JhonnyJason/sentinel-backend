@@ -29,6 +29,9 @@ importers:
       thingy-allmodules-sync:
         specifier: ^0.2.0
         version: 0.2.0
+      thingy-crypto-node:
+        specifier: ^0.0.2
+        version: 0.0.2
       thingy-debug:
         specifier: ^0.0.1
         version: 0.0.1
@@ -1754,6 +1757,9 @@ packages:
 
   thingy-byte-utils@0.0.8:
     resolution: {integrity: sha512-m9+aSv0XrU1g6Da61Qq0ZnyflSYx1/uWfD98UFziOV4WMrEzE5eHTjXGhxhFRzauL3EkwujZZJbOBxj8PzHyAg==}
+
+  thingy-crypto-node@0.0.2:
+    resolution: {integrity: sha512-wFpB8evuisJbZ/ZZmYEkcvfwJs5Ls16Co4G9wl4AQg4h8jZjN+b0a1Kj+X+2nEDsySp+iTO68xJAznjIpf0J3w==}
 
   thingy-debug@0.0.1:
     resolution: {integrity: sha512-PBIOqHt1KXDsMENJip89IwzZhc8vhv88rp7aw89O+hfSQA5QMqOxAjaILGmPK2H+yeePyTuTBWqTfHCWW6vNDQ==}
@@ -3954,6 +3960,10 @@ snapshots:
       mustache: 4.2.0
 
   thingy-byte-utils@0.0.8: {}
+
+  thingy-crypto-node@0.0.2:
+    dependencies:
+      secret-manager-crypto-utils: 0.3.1
 
   thingy-debug@0.0.1: {}
 
