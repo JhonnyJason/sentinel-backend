@@ -1,0 +1,10 @@
+[Unit]
+Description=Path Unit to restart tested sentinel-backend service on file-change :-)
+
+[Path]
+PathChanged=/opt/void/sentinel-backend/service.js
+Unit=restart-sentinel-backend.service
+
+
+[Install]
+WantedBy=multi-user.target

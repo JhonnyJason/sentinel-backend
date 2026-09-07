@@ -1,5 +1,6 @@
 node_modules
 .build-config
 testing/certificates
+testing/remote-wd
 testing/testing-wd
 testing/state
