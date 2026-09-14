@@ -43,6 +43,6 @@ server{
         proxy_read_timeout 2h;
         proxy_send_timeout 2h;
 
-       proxy_pass http://unix:/run/tested.sk;
+       proxy_pass http://unix:/run/sentinel-backend.sk;
     }
 }
